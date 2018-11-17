@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.22)  13 NOV 2018 12:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.22)  15 NOV 2018 15:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -497,26 +497,26 @@ Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 (./YourNames.aux)
 \openout1 = `YourNames.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 25.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 26.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 26.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    ... okay on input line 26.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -583,7 +583,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box51
-Package hyperref Info: Link coloring OFF on input line 25.
+Package hyperref Info: Link coloring OFF on input line 26.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -593,61 +593,66 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count160
 )
-LaTeX Info: Redefining \ref on input line 25.
-LaTeX Info: Redefining \pageref on input line 25.
-LaTeX Info: Redefining \nameref on input line 25.
+LaTeX Info: Redefining \ref on input line 26.
+LaTeX Info: Redefining \pageref on input line 26.
+LaTeX Info: Redefining \nameref on input line 26.
 
 (./YourNames.out) (./YourNames.out)
 \@outlinefile=\write3
 \openout3 = `YourNames.out'.
 
-LaTeX Info: Redefining \celsius on input line 25.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 25.
+LaTeX Info: Redefining \celsius on input line 26.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 26.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 25.
-Package gensymb Info: Using \Omega for \ohm on input line 25.
+LaTeX Info: Redefining \ohm on input line 26.
+Package gensymb Info: Using \Omega for \ohm on input line 26.
 
 Package gensymb Warning: Not defining \micro.
 
 <tuoslogo.png, id=4, 78.2925pt x 79.2561pt>
 File: tuoslogo.png Graphic file (type png)
  <use tuoslogo.png>
-Package pdftex.def Info: tuoslogo.png used on input line 32.
+Package pdftex.def Info: tuoslogo.png used on input line 33.
 (pdftex.def)             Requested size: 142.26378pt x 144.03468pt.
  [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./tuosl
 ogo.png>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 47.
+LaTeX Font Info:    Try loading font information for U+msa on input line 48.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 47.
+LaTeX Font Info:    Try loading font information for U+msb on input line 48.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 47--50
+Underfull \hbox (badness 10000) in paragraph at lines 48--51
 
  []
 
-<screenshot.jpg, id=13, 722.7pt x 542.025pt>
-File: screenshot.jpg Graphic file (type jpg)
- <use screenshot.jpg>
-Package pdftex.def Info: screenshot.jpg used on input line 53.
-(pdftex.def)             Requested size: 241.95866pt x 181.46577pt.
+<q1-voiced.png, id=13, 665.48625pt x 823.075pt>
+File: q1-voiced.png Graphic file (type png)
+ <use q1-voiced.png>
+Package pdftex.def Info: q1-voiced.png used on input line 59.
+(pdftex.def)             Requested size: 241.95866pt x 299.24559pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--62
+Underfull \hbox (badness 10000) in paragraph at lines 51--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--69
+Underfull \hbox (badness 10000) in paragraph at lines 65--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--75
 
  []
 
@@ -655,31 +660,29 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.70 \end{mdframed}
-                    [1 <./screenshot.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 73--76
-
- []
-
-
+l.75 A
+       high-pass filter is mainly used for noise cancellation. It's given a ...
+[1 <./q1-voiced.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 80--83
 
  []
 
-File: screenshot.jpg Graphic file (type jpg)
-<use screenshot.jpg>
-Package pdftex.def Info: screenshot.jpg used on input line 86.
-(pdftex.def)             Requested size: 241.95866pt x 181.46577pt.
-File: screenshot.jpg Graphic file (type jpg)
- <use screenshot.jpg>
-Package pdftex.def Info: screenshot.jpg used on input line 91.
-(pdftex.def)             Requested size: 241.95866pt x 181.46577pt.
- [2]
-Underfull \hbox (badness 10000) in paragraph at lines 97--100
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--90
 
  []
 
+<screenshot.jpg, id=28, 722.7pt x 542.025pt>
+File: screenshot.jpg Graphic file (type jpg)
+ <use screenshot.jpg>
+Package pdftex.def Info: screenshot.jpg used on input line 93.
+(pdftex.def)             Requested size: 241.95866pt x 181.46577pt.
+File: screenshot.jpg Graphic file (type jpg)
 
+<use screenshot.jpg>
+Package pdftex.def Info: screenshot.jpg used on input line 98.
+(pdftex.def)             Requested size: 241.95866pt x 181.46577pt.
+ [2 <./screenshot.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 104--107
 
  []
@@ -689,37 +692,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--114
 
  []
 
-[3]
-Package mdframed Info: Not enough space on this page on input line 115.
 
 Underfull \hbox (badness 10000) in paragraph at lines 118--121
 
  []
 
+[3]
+Package mdframed Info: Not enough space on this page on input line 122.
 
 Underfull \hbox (badness 10000) in paragraph at lines 125--128
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--135
+
+ []
+
 File: screenshot.jpg Graphic file (type jpg)
 <use screenshot.jpg>
-Package pdftex.def Info: screenshot.jpg used on input line 131.
+Package pdftex.def Info: screenshot.jpg used on input line 138.
 (pdftex.def)             Requested size: 241.95866pt x 181.46577pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 137.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 144.
  [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 144.
  (./YourNames.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 137.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 137.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 144.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 144.
 Package rerunfilecheck Info: File `YourNames.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 137.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 144.
  ) 
 Here is how much of TeX's memory you used:
- 15741 strings out of 492995
- 275055 string characters out of 6132704
- 349259 words of memory out of 5000000
- 19139 multiletter control sequences out of 15000+600000
+ 15746 strings out of 492995
+ 275139 string characters out of 6132704
+ 348259 words of memory out of 5000000
+ 19143 multiletter control sequences out of 15000+600000
  13855 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,11n,32p,10427b,431s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -746,10 +754,10 @@ ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
 ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texliv
 e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive
 /2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on YourNames.pdf (5 pages, 256631 bytes).
+Output written on YourNames.pdf (5 pages, 516271 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
+ 108 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
  18 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

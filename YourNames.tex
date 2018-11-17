@@ -1,3 +1,4 @@
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % COM3502-4502-6502 Speech Processing
 % Main Programming Assignment Response Sheet
@@ -34,8 +35,8 @@
 
 %vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
 % EDIT YOUR NAMES
-{\Large Your Name 1}\\
-{\Large Your Name 2}\\[1cm]
+{\Large John Ayad}\\
+{\Large Matthew Kinton}\\[1cm]
 %^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 {\LARGE Department of Computer Science}\\
@@ -47,10 +48,15 @@
 {\color{red}{\bfseries QUESTION \myq\ \emph{(worth up to 5 marks)}}\\Provide a screenshot of \texttt{[wsprobe$\sim$]} for a typical voiced sound, and explain the features in the waveform and spectrum that distinguish it from an unvoiced sound.  \emph{Hint: use the `snapshot' feature in \texttt{[wsprobe$\sim$]} to obtain a static display.}}
 \\
 \begin{mdframed}
-Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.
+Voiced:\\
+- Energy is present low frequencies (spectrum)\\
+- Pulses are visible due to the glottal closure (Waveform) (Because of the vocal cords vibrating)\\
+Voiceless:\\
+- No energy at low frequencies (Spectrum) (First formant is at a higher frequency)\\
+- No pattern can be seen in the waveform\\
 \begin{figure}[H]
   \begin{center}
-    \frame{\includegraphics[width=0.6\textwidth]{screenshot.jpg}}
+    \frame{\includegraphics[width=0.6\textwidth]{q1-voiced.png}}
   \end{center}
 \end{figure}
 \end{mdframed}
@@ -59,28 +65,31 @@ Replace this text with your answer.  Replace this text with your answer.  Replac
 {\color{red}{\bfseries QUESTION \myq\  \emph{(worth up to 5 marks)}}\\Which sounds are most affected when the low-pass cut-off frequency is set to around 500 Hz - vowels or consonants - and why?}
 \\
 \begin{mdframed}
-Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.
+Consonants are most affected. This is because vowels are voiced which have lower frequencies (250Hz to 1000Hz). Consonants on the other hand have higher frequencies (1500Hz to 6000Hz). The low-pass filter allows through lower frequencies (vowels) while severely damping higher frequencies (consonants). However, you could still hear dampened consonants as the filter doesn't entirely cut-off the frequencies but rather heavily dampen them at a rate of 6dB per octave.
 \end{mdframed}
 \vspace*{\baselineskip}
 
 {\color{red}{\bfseries QUESTION \myq\ \emph{(worth up to 5 marks)}}\\How is it that the speech is still quite intelligible when the high-pass cut-off frequency is set to 10 kHz?}
 \\
 \begin{mdframed}
-Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.
+A high-pass filter is mainly used for noise cancellation. It's given a roll-off frequency (Also known as the cut-off frequency). PD implements a one-pole high-pass filter with a roll-off rate of 6dB per octave. The higher the cut-off frequency, the more aggressive the dampening of the lower frequencies which results in a softened voice that has less noise.
+PUT SCREEN SHOTS (BEFORE AND AFTER) (Listen to lecture 12)
 \end{mdframed}
 \vspace*{\baselineskip}
 
 {\color{red}{\bfseries QUESTION \myq\ \emph{(worth up to 5 marks)}}\\COM3502-4502-6502: The \texttt{[GraphicEqualiser$\sim$]} object uses an FFT internally; what does FFT stand for and what does an FFT do?\\COM4502-6502 ONLY: What is a DFT and how is it different from an FFT?}
 \\
 \begin{mdframed}
-Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.
+FFT stands for Fast Fourier Transform. It separates a complex sound signal into it's individual frequency components each with their own amplitude and phase. (REWORD) // LIsten to next lecture and lecture 12/13
 \end{mdframed}
 \vspace*{\baselineskip}
 
 {\color{red}{\bfseries QUESTION \myq\ \emph{(worth up to 10 marks)}}\\With \texttt{speed = 50} and \texttt{depth = 0.5}, what are the minimum and maximum amplitudes of your LFO output, and how do they vary with changes in these two settings?  Also, please provide two screenshots: (a) your \texttt{[LFO$\sim$-help]} object and (b) the internal structure of your \texttt{[LFO$\sim$]} object.}
 \\
 \begin{mdframed}
-Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.  Replace this text with your answer.
+The minimum amplitude is -0.5 and the maximum is 0.5. Varying the speed doesn't change the amplitude as speed determines the frequency, which ranges from 0 to 50. Varying the depth doesn't change the frequency but rather the amplitude with a maximum of 1 and minimum of -1.
+MAKE A HELP OBJECT
+
 \begin{figure}[H]
   \begin{center}
     \frame{\includegraphics[width=0.6\textwidth]{screenshot.jpg}}
