@@ -1,5 +1,5 @@
 #N canvas 272 102 480 655 10;
-#X obj 114 150 hsl 128 15 -1000 1000 0 0 empty empty FREQUENCY_SHIFT
+#X obj 108 151 hsl 128 15 -1000 1000 0 0 empty empty FREQUENCY_SHIFT
 -2 -8 0 10 -262144 -45076 -1 6350 1;
 #X obj 171 177 sig~;
 #X obj 95 238 phasor~;
@@ -11,19 +11,17 @@
 #X obj 81 330 *~;
 #X obj 36 365 -~;
 #X obj 36 406 outlet~;
-#X obj 35 2 inlet~;
-#X obj 99 24 inlet;
-#X obj 278 105 bng 15 250 50 0 empty empty RESET -12 25 0 10 -262144
+#X obj 35 47 inlet~;
+#X obj 157 48 inlet;
+#X obj 258 106 bng 15 250 50 0 empty empty RESET -12 25 0 10 -262144
 -1 -1;
-#X obj 330 23 inlet;
+#X obj 271 47 inlet;
 #X obj 374 67 loadbang;
-#X obj 55 148 f \$1;
-#X floatatom 256 150 5 0 0 0 - - -;
-#X obj 246 54 inlet~;
+#X obj 55 126 f \$1;
+#X floatatom 243 151 5 0 0 0 - - -;
+#X obj 213 48 inlet~;
 #X obj 157 213 +~;
-#X obj 98 55 send \$0-frequency_shift;
 #X obj 54 80 receive \$0-reset;
-#X obj 313 153 receive \$0-frequency_shift;
 #X obj 311 119 send \$0-reset;
 #X connect 0 0 17 0;
 #X connect 1 0 19 0;
@@ -38,14 +36,13 @@
 #X connect 8 0 9 1;
 #X connect 9 0 10 0;
 #X connect 11 0 6 0;
-#X connect 12 0 20 0;
-#X connect 13 0 23 0;
+#X connect 12 0 17 0;
+#X connect 13 0 21 0;
 #X connect 14 0 13 0;
 #X connect 15 0 13 0;
-#X connect 16 0 0 0;
+#X connect 16 0 17 0;
 #X connect 17 0 1 0;
 #X connect 18 0 19 1;
 #X connect 19 0 2 0;
-#X connect 21 0 16 0;
-#X connect 22 0 0 0;
-#X coords 0 -1 1 1 200 70 1 100 100;
+#X connect 20 0 16 0;
+#X coords 0 -1 1 1 180 70 1 100 100;

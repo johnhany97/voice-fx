@@ -1,6 +1,7 @@
 #N canvas 528 127 1100 781 10;
-#X obj 166 3 VFX-RingModulator~;
-#X obj -55 3 VFX-Tremolo~;
-#X obj 166 154 VFX-FrequencyShifter~;
-#X obj -55 152 VFX-Vibrato~;
-#X obj 166 234 VFX-Delay~;
+#X obj 231 320 VFX-Delay~ 20;
+#X obj 469 54 VFX-Reverberation~ 10 0.5;
+#X obj -6 218 VFX-Vibrato~ 50 0.5 100;
+#X obj 231 220 VFX-FrequencyShifter~ 100;
+#X obj -7 51 VFX-Tremolo~ 25 0.5;
+#X obj 231 53 VFX-RingModulator~ 25 0.5;
