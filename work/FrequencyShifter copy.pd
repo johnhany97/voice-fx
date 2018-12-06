@@ -1,4 +1,4 @@
-#N canvas 597 90 480 655 10;
+#N canvas 678 165 480 655 10;
 #X obj 179 68 loadbang;
 #X obj 179 103 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
@@ -6,21 +6,23 @@
 #X msg 110 170 start;
 #X msg 179 171 open speech.wav;
 #X obj 179 224 readsf~;
-#X obj 154 553 output~;
-#X obj 248 554 wsprobe~;
+#X obj 155 670 output~;
+#X obj 249 671 wsprobe~;
 #X msg 245 222 0;
 #X obj 248 256 hsl 128 15 -1000 1000 0 0 empty empty Frequency_Shift
--2 -8 0 10 -262144 -45076 -1 0 1;
+-2 -8 0 10 -262144 -45076 -1 6450 1;
 #X floatatom 245 288 5 0 0 0 - - -;
 #X obj 245 319 sig~;
-#X obj 245 353 phasor~;
-#X obj 293 384 +~ -0.25;
-#X obj 245 416 cos~;
-#X obj 293 416 cos~;
-#X obj 177 416 hilbert~;
-#X obj 177 451 *~;
-#X obj 222 451 *~;
-#X obj 177 486 -~;
+#X obj 246 470 phasor~;
+#X obj 294 501 +~ -0.25;
+#X obj 246 533 cos~;
+#X obj 294 533 cos~;
+#X obj 178 533 hilbert~;
+#X obj 178 568 *~;
+#X obj 223 568 *~;
+#X obj 178 603 -~;
+#X obj 294 290 LFO~;
+#X obj 246 438 +~;
 #X connect 0 0 1 0;
 #X connect 0 0 8 0;
 #X connect 1 0 2 0;
@@ -33,7 +35,7 @@
 #X connect 8 0 9 0;
 #X connect 9 0 10 0;
 #X connect 10 0 11 0;
-#X connect 11 0 12 0;
+#X connect 11 0 21 0;
 #X connect 12 0 14 0;
 #X connect 12 0 13 0;
 #X connect 13 0 15 0;
@@ -46,3 +48,5 @@
 #X connect 19 0 6 0;
 #X connect 19 0 6 1;
 #X connect 19 0 7 0;
+#X connect 20 0 21 1;
+#X connect 21 0 12 0;
