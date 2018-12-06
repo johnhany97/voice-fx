@@ -10,7 +10,7 @@
 #X obj 249 671 wsprobe~;
 #X msg 245 222 0;
 #X obj 248 256 hsl 128 15 -1000 1000 0 0 empty empty Frequency_Shift
--2 -8 0 10 -262144 -45076 -1 6450 1;
+-2 -8 0 10 -262144 -45076 -1 0 1;
 #X floatatom 245 288 5 0 0 0 - - -;
 #X obj 245 319 sig~;
 #X obj 246 470 phasor~;
@@ -48,5 +48,5 @@
 #X connect 19 0 6 0;
 #X connect 19 0 6 1;
 #X connect 19 0 7 0;
-#X connect 20 0 21 1;
+#X connect 20 2 21 1;
 #X connect 21 0 12 0;
