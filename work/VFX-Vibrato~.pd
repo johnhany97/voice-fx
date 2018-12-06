@@ -1,0 +1,9 @@
+#N canvas 0 22 652 524 10;
+#X obj 105 125 LFO~;
+#X obj 105 245 VFX-FrequencyShifter~;
+#X obj 50 217 inlet~;
+#X obj 106 332 outlet~;
+#X connect 0 2 1 2;
+#X connect 1 0 3 0;
+#X connect 2 0 1 0;
+#X coords 0 -1 1 1 210 220 1 100 100;
