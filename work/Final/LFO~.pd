@@ -1,6 +1,6 @@
-#N canvas 559 74 986 611 10;
+#N canvas 726 62 986 611 10;
 #X obj 209 255 hsl 128 15 0 50 0 0 empty empty SPEED -2 -8 0 10 -262144
--1 -1 12700 1;
+-1 -1 0 1;
 #X floatatom 346 255 5 0 0 0 - - -;
 #X floatatom 345 289 5 0 0 0 - - -;
 #X obj 285 205 vradio 15 1 0 2 empty empty empty 0 -8 0 10 -262144
@@ -9,32 +9,32 @@
 #X text 303 220 SQUARE;
 #X obj 363 206 bng 15 250 50 0 empty empty RESET -12 25 0 10 -262144
 -1 -1;
-#X obj 468 446 *~;
+#X obj 410 431 *~;
 #X obj 209 290 hsl 128 15 0 1 0 0 empty empty DEPTH -2 -8 0 10 -262144
--1 -1 7200 1;
-#X obj 411 293 osc~;
+-1 -1 0 1;
+#X obj 409 304 osc~;
 #X obj 159 233 f \$1;
 #X obj 160 271 f \$2;
-#X obj 468 408 clip~ -1 1;
+#X obj 410 393 clip~ -1 1;
 #X msg 431 221 0;
-#X obj 457 269 route 0 1;
+#X obj 451 278 route 0 1;
 #X obj 200 175 inlet;
 #X obj 259 174 inlet;
 #X obj 361 172 inlet;
-#X obj 297 379 outlet;
-#X obj 349 378 outlet;
-#X obj 470 479 outlet~;
+#X obj 292 467 outlet;
+#X obj 344 466 outlet;
+#X obj 411 465 outlet~;
 #X obj 409 177 loadbang;
-#X obj 467 371 *~;
-#X msg 459 297 1;
-#X msg 501 298 1e+07;
-#X floatatom 483 331 5 0 0 0 - - -;
+#X obj 410 361 *~;
+#X msg 451 310 1;
+#X msg 485 310 1e+07;
+#X floatatom 464 337 5 0 0 0 - - -;
 #X text 199 156 SPEED;
-#X text 297 398 SPEED;
-#X text 348 395 DEPTH;
+#X text 292 486 SPEED;
+#X text 343 483 DEPTH;
 #X text 259 154 DEPTH;
 #X text 360 152 RESET;
-#X text 472 499 SIGNAL;
+#X text 413 485 SIGNAL;
 #X floatatom 432 245 5 0 0 0 - - -;
 #X connect 0 0 1 0;
 #X connect 1 0 18 0;
