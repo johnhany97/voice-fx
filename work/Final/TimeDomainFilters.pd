@@ -2,7 +2,7 @@
 #X obj 107 126 VFX-LowpassFilter;
 #X obj 107 209 VFX-HighpassFilter;
 #X obj 107 291 VFX-BandpassFilter;
-#X obj 332 106 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 332 106 bng 15 250 50 0 empty empty empty 17 7 0 10 -261234
 -1 -1;
 #X text 296 105 RESET;
 #X obj 332 76 inlet;

@@ -1,9 +1,9 @@
 #N canvas 585 273 451 529 10;
 #X obj 108 154 hsl 128 15 0 10000 0 0 empty empty CUT-OFF_FREQUENCY
-10 8 0 10 -262144 -1 -1 0 1;
+10 8 0 10 -232576 -1 -1 0 1;
 #X obj 89 65 inlet~;
 #X obj 89 218 outlet~;
-#X obj 264 105 bng 15 250 50 0 empty empty RESET -12 25 0 10 -262144
+#X obj 264 105 bng 15 250 50 0 empty empty RESET -12 25 0 10 -261234
 -1 -1;
 #X obj 56 128 f \$1;
 #X obj 295 88 loadbang;

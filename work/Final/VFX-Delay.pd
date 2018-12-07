@@ -1,9 +1,9 @@
 #N canvas 1021 143 578 655 10;
-#X obj 106 141 hsl 128 15 1 1000 1 0 empty empty DELAY -2 -8 0 10 -262144
+#X obj 106 141 hsl 128 15 1 1000 1 0 empty empty DELAY -2 -8 0 10 -204800
 -1 -1 0 1;
 #X obj 103 167 sig~;
 #X obj 88 269 +~;
-#X obj 260 105 bng 15 250 50 0 empty empty RESET -12 25 0 10 -262144
+#X obj 260 105 bng 15 250 50 0 empty empty RESET -12 25 0 10 -261234
 -1 -1;
 #X obj 159 34 inlet;
 #X obj 305 88 loadbang;

@@ -3,7 +3,7 @@
 #X obj 104 69 inlet~;
 #X obj 332 68 inlet;
 #X obj 298 450 outlet~;
-#X obj 332 103 bng 15 250 50 0 empty empty RESET -35 7 0 10 -262144
+#X obj 332 103 bng 15 250 50 0 empty empty RESET -35 7 0 10 -261234
 -1 -1;
 #X obj 104 129 VFX-FrequencyShifter;
 #X obj 103 206 VFX-Vibrato;

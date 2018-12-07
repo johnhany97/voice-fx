@@ -4,21 +4,21 @@
 #X obj 91 290 outlet~;
 #X obj 146 75 inlet;
 #X obj 205 76 inlet;
-#X obj 274 106 bng 15 250 50 0 empty empty RESET -35 7 0 10 -262144
+#X obj 274 106 bng 15 250 50 0 empty empty RESET -35 7 0 10 -261234
 -1 -1;
 #X obj 338 90 loadbang;
-#X obj 105 127 LFO~ \$1 \$2;
 #X text 92 57 SIGNAL;
 #X text 147 56 SPEED;
 #X text 204 59 DEPTH;
 #X obj 274 73 inlet;
 #X text 270 54 RESET;
+#X obj 105 127 LFO~ \$1 \$2;
 #X connect 0 0 2 0;
 #X connect 1 0 0 0;
-#X connect 3 0 7 0;
-#X connect 4 0 7 1;
-#X connect 5 0 7 2;
+#X connect 3 0 12 0;
+#X connect 4 0 12 1;
+#X connect 5 0 12 2;
 #X connect 6 0 5 0;
-#X connect 7 2 0 1;
-#X connect 11 0 5 0;
+#X connect 10 0 5 0;
+#X connect 12 2 0 1;
 #X coords 0 -1 1 1 191 140 1 100 100;

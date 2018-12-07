@@ -2,7 +2,7 @@
 #X obj 103 118 InputChooser;
 #X obj 103 175 TimeDomainFilters;
 #X obj 880 175 TimeDelayEffects;
-#X obj 1120 105 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 1120 105 bng 15 250 50 0 empty empty empty 17 7 0 10 -261234
 -1 -1;
 #X text 1084 104 RESET;
 #X obj 619 175 AmplitudeModulationEffects;
@@ -20,7 +20,7 @@
 #X obj 700 510 cnv 15 1 1 empty empty MASTER_VOLUME 20 12 0 14 -233017
 -66577 0;
 #X obj 744 540 knob 50 50 0 1 0 0 empty empty empty 0 -8 0 8 -262144
--1 -1 4200 1;
+-1 -1 1100 1;
 #X floatatom 743 613 5 0 0 0 - - -;
 #X obj 819 735 hip~ 3;
 #X obj 742 732 line~;

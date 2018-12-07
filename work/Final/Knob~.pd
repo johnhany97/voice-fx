@@ -8,7 +8,7 @@
 #X obj 67 248 *~;
 #X obj 201 25 loadbang;
 #X obj 375 44 inlet;
-#X obj 205 85 bng 15 250 50 0 empty empty R 5 8 0 10 -262144 -1 -1
+#X obj 205 85 bng 15 250 50 0 empty empty R 5 8 0 10 -261234 -1 -1
 ;
 #X msg 327 99 0;
 #X obj 168 306 outlet~;

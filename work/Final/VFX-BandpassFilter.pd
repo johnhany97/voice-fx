@@ -1,9 +1,9 @@
 #N canvas 585 273 451 529 10;
 #X obj 108 154 hsl 128 15 0 10000 0 0 empty empty CENTRE_FREQUENCY
-10 8 0 10 -262144 -1 -1 0 1;
+10 8 0 10 -261682 -1 -1 0 1;
 #X obj 89 65 inlet~;
 #X obj 85 254 outlet~;
-#X obj 264 105 bng 15 250 50 0 empty empty RESET -12 25 0 10 -262144
+#X obj 264 105 bng 15 250 50 0 empty empty RESET -12 25 0 10 -261234
 -1 -1;
 #X obj 56 128 f \$1;
 #X obj 297 83 loadbang;
@@ -11,7 +11,7 @@
 #X text 103 137 0Hz;
 #X text 196 137 10000Hz;
 #X obj 85 221 bp~;
-#X obj 109 186 hsl 128 15 0 100 0 0 empty empty Q 60 8 0 10 -262144
+#X obj 109 186 hsl 128 15 0 100 0 0 empty empty Q 60 8 0 10 -204786
 -1 -1 0 1;
 #X floatatom 246 186 5 0 0 0 - - -;
 #X text 104 169 0Hz;

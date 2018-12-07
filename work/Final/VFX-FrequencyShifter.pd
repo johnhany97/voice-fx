@@ -1,6 +1,6 @@
 #N canvas 562 179 480 655 10;
 #X obj 108 151 hsl 128 15 -1000 1000 0 0 empty empty FREQUENCY_SHIFT
--2 -8 0 10 -262144 -45076 -1 9525 1;
+-2 -8 0 10 -232576 -45076 -1 6350 1;
 #X obj 147 181 sig~;
 #X obj 95 238 phasor~;
 #X obj 152 263 +~ -0.25;
@@ -13,7 +13,7 @@
 #X obj 36 406 outlet~;
 #X obj 35 47 inlet~;
 #X obj 122 40 inlet;
-#X obj 258 106 bng 15 250 50 0 empty empty RESET -12 25 0 10 -262144
+#X obj 258 106 bng 15 250 50 0 empty empty RESET -12 25 0 10 -261234
 -1 -1;
 #X obj 355 37 inlet;
 #X obj 374 67 loadbang;

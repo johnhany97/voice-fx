@@ -1,5 +1,5 @@
 #N canvas 726 62 986 611 10;
-#X obj 209 255 hsl 128 15 0 50 0 0 empty empty SPEED -2 -8 0 10 -262144
+#X obj 209 255 hsl 128 15 0 50 0 0 empty empty SPEED -2 -8 0 10 -204786
 -1 -1 0 1;
 #X floatatom 346 255 5 0 0 0 - - -;
 #X floatatom 345 289 5 0 0 0 - - -;
@@ -7,10 +7,10 @@
 -1 -1 0;
 #X text 303 204 SINE;
 #X text 303 220 SQUARE;
-#X obj 363 206 bng 15 250 50 0 empty empty RESET -12 25 0 10 -262144
+#X obj 363 206 bng 15 250 50 0 empty empty RESET -12 25 0 10 -261234
 -1 -1;
 #X obj 410 431 *~;
-#X obj 209 290 hsl 128 15 0 1 0 0 empty empty DEPTH -2 -8 0 10 -262144
+#X obj 209 290 hsl 128 15 0 1 0 0 empty empty DEPTH -2 -8 0 10 -203904
 -1 -1 0 1;
 #X obj 409 304 osc~;
 #X obj 159 233 f \$1;

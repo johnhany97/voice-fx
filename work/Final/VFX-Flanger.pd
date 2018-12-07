@@ -1,7 +1,7 @@
 #N canvas 325 23 554 918 10;
 #X obj 57 56 inlet~;
 #X obj 83 328 outlet~;
-#X obj 268 105 bng 15 250 50 0 empty empty RESET -12 25 0 10 -262144
+#X obj 268 105 bng 15 250 50 0 empty empty RESET -12 25 0 10 -261234
 -1 -1;
 #X text 56 36 SIGNAL;
 #X text 83 346 SIGNAL;
@@ -13,18 +13,18 @@
 #X text 157 37 DEPTH;
 #X text 198 37 DELAY;
 #X text 252 36 RESET;
-#X obj 104 138 LFO~ \$1 \$2;
-#X obj 106 254 VFX-Delay \$3;
 #X text 373 247 <= Scale up depth from LFO;
 #X obj 316 245 *~ 10;
-#X connect 0 0 14 0;
-#X connect 2 0 13 2;
-#X connect 2 0 14 3;
-#X connect 5 0 13 0;
-#X connect 6 0 13 1;
-#X connect 7 0 14 1;
+#X obj 104 138 LFO~ \$1 \$2;
+#X obj 106 254 VFX-Delay \$3;
+#X connect 0 0 16 0;
+#X connect 2 0 15 2;
+#X connect 2 0 16 3;
+#X connect 5 0 15 0;
+#X connect 6 0 15 1;
+#X connect 7 0 16 1;
 #X connect 8 0 2 0;
-#X connect 13 2 16 0;
-#X connect 14 0 1 0;
-#X connect 16 0 14 2;
+#X connect 14 0 16 2;
+#X connect 15 2 14 0;
+#X connect 16 0 1 0;
 #X coords 0 -1 1 1 190 220 1 100 100;

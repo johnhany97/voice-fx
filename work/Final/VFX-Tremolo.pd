@@ -7,7 +7,7 @@
 #X obj 91 379 outlet~;
 #X obj 146 75 inlet;
 #X obj 205 76 inlet;
-#X obj 274 106 bng 15 250 50 0 empty empty RESET -35 7 0 10 -262144
+#X obj 274 106 bng 15 250 50 0 empty empty RESET -35 7 0 10 -261234
 -1 -1;
 #X obj 338 90 loadbang;
 #X obj 105 127 LFO~ \$1 \$2;

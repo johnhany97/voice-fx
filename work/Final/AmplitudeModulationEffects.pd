@@ -1,7 +1,7 @@
 #N canvas 129 77 864 813 10;
 #X obj 155 117 inlet~;
 #X obj 351 492 outlet~;
-#X obj 386 154 bng 15 250 50 0 empty empty RESET -40 7 0 10 -262144
+#X obj 386 154 bng 15 250 50 0 empty empty RESET -40 7 0 10 -261234
 -1 -1;
 #X obj 428 120 loadbang;
 #X obj 386 120 inlet;

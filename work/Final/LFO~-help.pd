@@ -1,4 +1,4 @@
-#N canvas 0 22 923 751 10;
+#N canvas 0 22 568 652 10;
 #X obj 10 613 cnv 15 552 21 empty \$0-pddp.cnv.footer empty 20 12 0
 14 -228856 -66577 0;
 #X obj 10 10 cnv 15 552 40 empty \$0-pddp.cnv.header LFO~ 3 12 0 18
@@ -44,12 +44,11 @@ values;
 #X text 221 252 The LFO outputs a sinusoid or square wave determined
 by it's speed and its depth. The speed determines the frequency of
 the sinusoid and depth the amplitude;
-#X text 158 618;
-#X text 108 548;
 #X text 88 568 1) float;
 #X text 88 588 2) float;
 #X text 158 568 - The default speed;
 #X text 158 588 - The default depth;
+#X text 108 547;
 #X connect 9 0 14 0;
 #X connect 9 1 13 0;
 #X connect 9 2 15 0;
