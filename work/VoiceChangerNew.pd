@@ -1,0 +1,10 @@
+#N canvas 840 23 840 940 10;
+#X obj 103 118 InputChooser;
+#X obj 103 558 output~;
+#X obj 105 201 TimeDomainFilters;
+#X obj 196 560 wsprobe~;
+#X connect 0 0 2 0;
+#X connect 2 0 1 0;
+#X connect 2 0 1 1;
+#X connect 2 0 3 0;
+#X coords 0 -1 1 1 750 500 1 100 100;
