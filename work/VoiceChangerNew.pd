@@ -63,9 +63,19 @@
 #X obj 625 1080 delay 200;
 #X obj 717 1079 delay 200;
 #X obj 282 1103 s echo_preset;
-#X obj 110 543 Preset telephone;
+#X obj 106 520 Preset telephone;
 #X obj 1120 56 r vfx_reset;
 #X obj 911 717 s vfx_reset;
+#X obj 288 520 Preset Dalek;
+#X obj 474 520 Preset Robot;
+#X obj 660 520 Preset Gollum;
+#X obj 105 549 Preset phasing;
+#X obj 287 549 Preset reverberant_room;
+#X obj 473 549 Preset echo;
+#X obj 659 549 Preset underwater;
+#X obj 105 576 Preset c3p0;
+#X obj 287 576 Preset low_pitch;
+#X obj 473 576 Preset high_pitch;
 #X connect 0 0 1 0;
 #X connect 1 0 6 0;
 #X connect 3 0 1 1;
@@ -108,4 +118,4 @@
 #X connect 49 0 38 0;
 #X connect 50 0 39 0;
 #X connect 53 0 3 0;
-#X coords 0 -1 1 1 1040 600 1 100 100;
+#X coords 0 -1 1 1 1040 500 1 100 100;
