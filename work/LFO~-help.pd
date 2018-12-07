@@ -1,0 +1,59 @@
+#N canvas 0 22 923 751 10;
+#X obj 10 613 cnv 15 552 21 empty \$0-pddp.cnv.footer empty 20 12 0
+14 -228856 -66577 0;
+#X obj 10 10 cnv 15 552 40 empty \$0-pddp.cnv.header LFO~ 3 12 0 18
+-204280 -1 0;
+#X obj 10 301 cnv 3 550 3 empty \$0-pddp.cnv.inlets inlets 8 12 0 13
+-228856 -1 0;
+#X obj 10 420 cnv 3 550 3 empty \$0-pddp.cnv.outlets outlets 8 12 0
+13 -228856 -1 0;
+#X obj 10 544 cnv 3 550 3 empty \$0-pddp.cnv.argument arguments 8 12
+0 13 -228856 -1 0;
+#X obj 88 310 cnv 17 3 100 empty \$0-pddp.cnv.let.0 0 5 9 0 16 -228856
+-162280 0;
+#X text 108 428 float;
+#X obj 88 429 cnv 17 3 100 empty \$0-pddp.cnv.let.0 0 5 9 0 16 -228856
+-162280 0;
+#X text 21 33 low frequency oscillator;
+#X obj 169 87 LFO~;
+#X floatatom 169 61 5 0 0 0 - - -;
+#X floatatom 257 61 5 0 0 0 - - -;
+#X obj 345 62 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X floatatom 257 212 5 0 0 0 - - -;
+#X floatatom 169 212 5 0 0 0 - - -;
+#X obj 345 212 output~;
+#X obj 88 340 cnv 17 3 1 empty \$0-pddp.cnv.let.0 1 5 9 0 16 -228856
+-162280 0;
+#X text 108 339 float;
+#X obj 88 370 cnv 17 3 1 empty \$0-pddp.cnv.let.0 2 5 9 0 16 -228856
+-162280 0;
+#X text 108 368 bang;
+#X text 108 309 float;
+#X text 178 308 - Sets the signal's speed (frequency) value;
+#X text 178 338 - Sets the signal's depth (amplitude) value;
+#X text 178 368 - Resets the LFO to it's creation arguments or default
+values;
+#X text 178 428 - The output signal frequency;
+#X text 178 458 - The output signal amplitude;
+#X obj 88 459 cnv 17 1 1 empty \$0-pddp.cnv.let.0 1 5 9 0 16 -228856
+-162280 0;
+#X obj 88 489 cnv 17 1 1 empty \$0-pddp.cnv.let.0 2 5 9 0 16 -228856
+-162280 0;
+#X text 178 488 - The output signal;
+#X text 221 252 The LFO outputs a sinusoid or square wave determined
+by it's speed and its depth. The speed determines the frequency of
+the sinusoid and depth the amplitude;
+#X text 158 618;
+#X text 108 548;
+#X text 88 568 1) float;
+#X text 88 588 2) float;
+#X text 158 568 - The default speed;
+#X text 158 588 - The default depth;
+#X connect 9 0 14 0;
+#X connect 9 1 13 0;
+#X connect 9 2 15 0;
+#X connect 9 2 15 1;
+#X connect 10 0 9 0;
+#X connect 11 0 9 1;
+#X connect 12 0 9 2;
