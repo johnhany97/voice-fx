@@ -9,6 +9,40 @@
 #X text 1084 104 RESET;
 #X obj 619 175 AmplitudeModulationEffects;
 #X obj 363 175 FrequencyModulationEffects;
+#X text 103 507 PRESET EFFECTS;
+#X obj 112 527 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 248 527 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 130 526 TELEPHONE (STEP11);
+#X text 267 526 DALEK (STEP18);
+#X obj 370 527 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 388 526 ROBOT (STEP 20);
+#X obj 495 526 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 513 525 GOLLUM (STEP 23);
+#X obj 626 527 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 112 553 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 644 526 PHASING (STEP 25);
+#X text 130 552 REVERBERANT ROOM (STEP 25);
+#X obj 304 554 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 322 553 ECHO;
+#X obj 371 555 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 527 555 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 113 578 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 131 577 LOW PITCHED;
+#X obj 224 577 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 242 576 HIGH PITCHED;
+#X text 389 554 UNDERWATER (STEP 26);
+#X text 545 554 C3PO (STEP 27);
 #X connect 0 0 2 0;
 #X connect 2 0 8 0;
 #X connect 4 0 1 0;
