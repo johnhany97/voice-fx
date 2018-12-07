@@ -17,6 +17,8 @@
 #X text 172 46 CUTOFF;
 #X text 84 46 SIGNAL;
 #X text 87 235 SIGNAL;
+#X obj 362 87 r telephone;
+#X msg 330 125 3400;
 #X connect 0 0 6 0;
 #X connect 1 0 9 0;
 #X connect 3 0 4 0;
@@ -26,4 +28,6 @@
 #X connect 9 0 2 0;
 #X connect 10 0 6 0;
 #X connect 11 0 3 0;
+#X connect 16 0 17 0;
+#X connect 17 0 0 0;
 #X coords 0 -1 1 1 185 75 1 100 100;
