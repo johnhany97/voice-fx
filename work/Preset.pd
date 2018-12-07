@@ -3,7 +3,7 @@
 -1 -1;
 #X obj 240 128 s vfx_reset;
 #X obj 161 161 send \$1;
-#X obj 161 128 delay 500;
+#X obj 160 127 delay 200;
 #X connect 0 0 1 0;
 #X connect 0 0 3 0;
 #X connect 3 0 2 0;
