@@ -11,8 +11,8 @@
 #X obj 144 73 inlet~;
 #X obj 119 36 loadbang;
 #X msg 65 112 0;
-#X obj 103 122 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 0 1;
+#X obj 103 122 vsl 15 128 0 1 0 0 dimensions empty empty 0 -9 0 10
+-262144 -1 -1 0 1;
 #X floatatom 97 290 5 0 0 0 - - -;
 #X floatatom 57 286 5 0 0 0 - - -;
 #X connect 0 0 3 0;
