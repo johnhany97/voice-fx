@@ -1,0 +1,10 @@
+#N canvas 0 22 450 300 10;
+#X obj 254 100 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 161 128 delay 200;
+#X obj 240 128 s vfx_reset;
+#X obj 161 161 send \$1;
+#X connect 0 0 1 0;
+#X connect 0 0 2 0;
+#X connect 1 0 3 0;
+#X coords 0 -1 1 1 170 15 1 100 100;

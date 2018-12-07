@@ -1,57 +1,111 @@
 #N canvas 0 23 1680 940 10;
 #X obj 103 118 InputChooser;
-#X obj 104 656 output~;
 #X obj 103 175 TimeDomainFilters;
-#X obj 174 678 wsprobe~;
 #X obj 880 175 TimeDelayEffects;
 #X obj 1120 105 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X text 1084 104 RESET;
 #X obj 619 175 AmplitudeModulationEffects;
 #X obj 363 175 FrequencyModulationEffects;
-#X text 103 507 PRESET EFFECTS;
-#X obj 112 527 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X text 143 826 PRESET EFFECTS;
+#X obj 152 846 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 248 527 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 288 846 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X text 130 526 TELEPHONE (STEP11);
-#X text 267 526 DALEK (STEP18);
-#X obj 370 527 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X text 170 845 TELEPHONE (STEP11);
+#X text 307 845 DALEK (STEP18);
+#X obj 410 846 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X text 388 526 ROBOT (STEP 20);
-#X obj 495 526 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X text 428 845 ROBOT (STEP 20);
+#X obj 535 845 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X text 513 525 GOLLUM (STEP 23);
-#X obj 626 527 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X text 553 844 GOLLUM (STEP 23);
+#X obj 666 846 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 112 553 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 152 872 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X text 644 526 PHASING (STEP 25);
-#X text 130 552 REVERBERANT ROOM (STEP 25);
-#X obj 304 554 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X text 684 845 PHASING (STEP 25);
+#X text 170 871 REVERBERANT ROOM (STEP 25);
+#X obj 344 873 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X text 322 553 ECHO;
-#X obj 371 555 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X text 362 872 ECHO;
+#X obj 411 874 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 527 555 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 567 874 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 113 578 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 153 897 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X text 131 577 LOW PITCHED;
-#X obj 224 577 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X text 171 896 LOW PITCHED;
+#X obj 264 896 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X text 242 576 HIGH PITCHED;
-#X text 389 554 UNDERWATER (STEP 26);
-#X text 545 554 C3PO (STEP 27);
-#X connect 0 0 2 0;
-#X connect 2 0 8 0;
-#X connect 4 0 1 0;
-#X connect 4 0 1 1;
-#X connect 4 0 3 0;
-#X connect 5 0 2 1;
-#X connect 5 0 7 1;
-#X connect 5 0 4 1;
-#X connect 5 0 8 1;
-#X connect 7 0 4 0;
-#X connect 8 0 7 0;
+#X text 282 895 HIGH PITCHED;
+#X text 429 873 UNDERWATER (STEP 26);
+#X text 585 873 C3PO (STEP 27);
+#X obj 153 1049 s telephone_preset;
+#X obj 282 1050 s dalek_preset;
+#X obj 390 1049 s robot_preset;
+#X obj 505 1050 s gollum_preset;
+#X obj 626 1050 s phasing_preset;
+#X obj 152 1103 s reverberant_preset;
+#X obj 390 1102 s underwater_preset;
+#X obj 516 1102 s c3p0_preset;
+#X obj 625 1102 s low-preset;
+#X obj 717 1102 s high-preset;
+#X obj 151 1026 delay 200;
+#X obj 281 1028 delay 200;
+#X obj 390 1027 delay 200;
+#X obj 504 1028 delay 200;
+#X obj 627 1027 delay 200;
+#X obj 151 1081 delay 200;
+#X obj 282 1080 delay 200;
+#X obj 390 1081 delay 200;
+#X obj 516 1080 delay 200;
+#X obj 625 1080 delay 200;
+#X obj 717 1079 delay 200;
+#X obj 282 1103 s echo_preset;
+#X obj 110 543 Preset telephone;
+#X obj 1120 56 r vfx_reset;
+#X obj 911 717 s vfx_reset;
+#X connect 0 0 1 0;
+#X connect 1 0 6 0;
+#X connect 3 0 1 1;
+#X connect 3 0 5 1;
+#X connect 3 0 2 1;
+#X connect 3 0 6 1;
+#X connect 5 0 2 0;
+#X connect 6 0 5 0;
+#X connect 8 0 40 0;
+#X connect 8 0 54 0;
+#X connect 9 0 41 0;
+#X connect 9 0 54 0;
+#X connect 12 0 42 0;
+#X connect 12 0 54 0;
+#X connect 14 0 43 0;
+#X connect 14 0 54 0;
+#X connect 16 0 44 0;
+#X connect 16 0 54 0;
+#X connect 17 0 45 0;
+#X connect 17 0 54 0;
+#X connect 20 0 46 0;
+#X connect 20 0 54 0;
+#X connect 22 0 47 0;
+#X connect 22 0 54 0;
+#X connect 23 0 48 0;
+#X connect 23 0 54 0;
+#X connect 24 0 49 0;
+#X connect 24 0 54 0;
+#X connect 26 0 50 0;
+#X connect 26 0 54 0;
+#X connect 40 0 30 0;
+#X connect 41 0 31 0;
+#X connect 42 0 32 0;
+#X connect 43 0 33 0;
+#X connect 44 0 34 0;
+#X connect 45 0 35 0;
+#X connect 46 0 51 0;
+#X connect 47 0 36 0;
+#X connect 48 0 37 0;
+#X connect 49 0 38 0;
+#X connect 50 0 39 0;
+#X connect 53 0 3 0;
 #X coords 0 -1 1 1 1040 600 1 100 100;
