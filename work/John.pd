@@ -1,3 +1,7 @@
 #N canvas 0 22 1317 862 10;
 #X obj 162 75 VoiceChanger~;
-#X obj 47 63 FileInput;
+#X obj 47 63 InputChooser;
+#X obj 172 715 output~;
+#X connect 0 0 2 0;
+#X connect 0 0 2 1;
+#X connect 1 0 0 0;
