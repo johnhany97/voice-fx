@@ -67,8 +67,6 @@
 #X obj 1120 56 r vfx_reset;
 #X obj 911 717 s vfx_reset;
 #X obj 881 625 outlet~;
-#X obj 474 520 Preset Robot;
-#X obj 660 520 Preset Gollum;
 #X obj 105 549 Preset phasing;
 #X obj 287 549 Preset reverberant_room;
 #X obj 473 549 Preset echo;
@@ -77,6 +75,8 @@
 #X obj 287 576 Preset low_pitch;
 #X obj 473 576 Preset high_pitch;
 #X obj 288 520 Preset dalek;
+#X obj 660 520 Preset gollum;
+#X obj 474 520 Preset robot;
 #X connect 0 0 1 0;
 #X connect 1 0 6 0;
 #X connect 2 0 55 0;
