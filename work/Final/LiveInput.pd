@@ -1,0 +1,13 @@
+#N canvas 274 217 450 300 10;
+#X obj 120 222 outlet~;
+#X obj 120 72 adc~;
+#X obj 159 100 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X text 182 97 <= ON/OFF;
+#X obj 120 180 *~;
+#X obj 160 37 inlet;
+#X connect 1 0 4 0;
+#X connect 2 0 4 1;
+#X connect 4 0 0 0;
+#X connect 5 0 2 0;
+#X coords 0 -1 1 1 75 15 1 100 100;
