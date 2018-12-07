@@ -1,0 +1,61 @@
+#N canvas 0 23 583 651 10;
+#X obj 10 613 cnv 15 552 21 empty \$0-pddp.cnv.footer empty 20 12 0
+14 -228856 -66577 0;
+#X obj 12 -89 cnv 15 552 40 empty \$0-pddp.cnv.header VFX-Flanger 3
+12 0 18 -204280 -1 0;
+#X obj 10 271 cnv 3 550 3 empty \$0-pddp.cnv.inlets inlets 8 12 0 13
+-228856 -1 0;
+#X obj 10 420 cnv 3 550 3 empty \$0-pddp.cnv.outlets outlets 8 12 0
+13 -228856 -1 0;
+#X obj 11 483 cnv 3 550 3 empty \$0-pddp.cnv.argument arguments 8 12
+0 13 -228856 -1 0;
+#X obj 87 284 cnv 17 3 120 empty \$0-pddp.cnv.let.0 0 5 9 0 16 -228856
+-162280 0;
+#X obj 88 428 cnv 17 3 30 empty \$0-pddp.cnv.let.0 0 5 9 0 16 -228856
+-162280 0;
+#X obj 65 228 output~;
+#X obj 87 307 cnv 17 3 1 empty \$0-pddp.cnv.let.0 1 5 9 0 16 -228856
+-162280 0;
+#X text 107 308 float;
+#X obj 87 332 cnv 17 3 1 empty \$0-pddp.cnv.let.0 2 5 9 0 16 -228856
+-162280 0;
+#X text 178 428 - The output signal frequency;
+#X text 89 507 1) float;
+#X obj 26 -41 osc~ 400;
+#X floatatom 138 -40 5 0 0 0 - - -;
+#X text 107 283 signal;
+#X obj 88 359 cnv 17 3 1 empty \$0-pddp.cnv.let.0 3 5 9 0 16 -228856
+-162280 0;
+#X text 207 234 VFX-Delay is an effect that produces a delayed version
+of the given signal. It's delay can be controlled by a signal.;
+#X text 177 282 - Original signal to be processed.;
+#X text 108 428 signal;
+#X text 13 -65 flanger voice effect;
+#X obj 87 387 cnv 17 3 1 empty \$0-pddp.cnv.let.0 4 5 9 0 16 -228856
+-162280 0;
+#X text 177 307 - Sets speed of LFO;
+#X text 177 332 - Sets depth of LFO;
+#X text 178 360 - Sets delay of VFX-Delay;
+#X text 177 386 - Resets to creation arguments or default values;
+#X text 107 387 bang;
+#X text 107 359 float;
+#X text 107 333 float;
+#X obj 94 -2 VFX-Flanger;
+#X floatatom 185 -40 5 0 0 0 - - -;
+#X floatatom 230 -39 5 0 0 0 - - -;
+#X obj 277 -39 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 109 487;
+#X text 158 618;
+#X text 158 525 - The LFO Depth;
+#X text 88 526 2) float;
+#X text 159 507 - The LFO Speed;
+#X text 158 544 - The VFX-Delay delay;
+#X text 88 545 3) float;
+#X connect 13 0 29 0;
+#X connect 14 0 29 1;
+#X connect 29 0 7 0;
+#X connect 29 0 7 1;
+#X connect 30 0 29 2;
+#X connect 31 0 29 3;
+#X connect 32 0 29 4;
