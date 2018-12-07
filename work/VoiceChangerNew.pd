@@ -1,19 +1,23 @@
-#N canvas 556 23 1124 940 10;
+#N canvas 0 23 1680 940 10;
 #X obj 103 118 InputChooser;
-#X obj 104 557 output~;
+#X obj 104 656 output~;
 #X obj 103 175 TimeDomainFilters;
-#X obj 197 559 wsprobe~;
-#X obj 364 175 TimeDelayEffects;
-#X obj 830 104 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 174 678 wsprobe~;
+#X obj 880 175 TimeDelayEffects;
+#X obj 1120 105 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X text 794 103 RESET;
-#X obj 626 176 AmplitudeModulationEffects;
+#X text 1084 104 RESET;
+#X obj 619 175 AmplitudeModulationEffects;
+#X obj 363 175 FrequencyModulationEffects;
 #X connect 0 0 2 0;
-#X connect 2 0 4 0;
+#X connect 2 0 8 0;
 #X connect 4 0 1 0;
 #X connect 4 0 1 1;
 #X connect 4 0 3 0;
 #X connect 5 0 2 1;
-#X connect 5 0 4 1;
 #X connect 5 0 7 1;
-#X coords 0 -1 1 1 900 500 1 100 100;
+#X connect 5 0 4 1;
+#X connect 5 0 8 1;
+#X connect 7 0 4 0;
+#X connect 8 0 7 0;
+#X coords 0 -1 1 1 1040 600 1 100 100;

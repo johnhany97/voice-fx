@@ -1,6 +1,6 @@
 #N canvas 559 74 986 611 10;
 #X obj 209 255 hsl 128 15 0 50 0 0 empty empty SPEED -2 -8 0 10 -262144
--1 -1 12700 1;
+-1 -1 0 1;
 #X floatatom 346 255 5 0 0 0 - - -;
 #X floatatom 345 289 5 0 0 0 - - -;
 #X obj 285 205 vradio 15 1 0 2 empty empty empty 0 -8 0 10 -262144
