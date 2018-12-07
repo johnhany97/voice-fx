@@ -1,7 +1,7 @@
-#N canvas 0 22 1317 862 10;
-#X obj 162 75 VoiceChanger~;
-#X obj 47 63 InputChooser;
-#X obj 172 715 output~;
+#N canvas 0 23 1455 612 10;
+#X obj 269 28 VoiceChangerNew;
+#X obj 234 558 output~;
+#X obj 358 553 wsprobe~;
+#X connect 0 0 1 0;
+#X connect 0 0 1 1;
 #X connect 0 0 2 0;
-#X connect 0 0 2 1;
-#X connect 1 0 0 0;
