@@ -1,18 +1,18 @@
 #N canvas 1079 111 459 424 10;
-#X obj 36 80 openpanel;
-#X obj 36 236 readsf~;
-#X obj 36 272 outlet~;
-#X obj 36 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 67 108 openpanel;
+#X obj 67 264 readsf~;
+#X obj 67 300 outlet~;
+#X obj 67 71 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 100 272 outlet;
-#X obj 36 -11 inlet;
-#X obj -35 162 delay 500;
-#X msg 35 188 open \$1;
-#X msg -38 191 start;
-#X obj 53 125 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 131 300 outlet;
+#X obj 67 17 inlet;
+#X obj -4 190 delay 500;
+#X msg 66 216 open \$1;
+#X msg -7 219 start;
+#X obj 84 153 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X text 73 -11 SIGNAL TO TRIGGER BANG;
-#X text 34 294 OUTLETS FROM readsf~;
+#X text 104 17 <= SIGNAL TO TRIGGER BANG;
+#X text 180 298 <= OUTLETS FROM readsf~;
 #X connect 0 0 9 0;
 #X connect 0 0 7 0;
 #X connect 1 0 2 0;
@@ -25,4 +25,4 @@
 #X connect 8 0 1 0;
 #X connect 9 0 7 0;
 #X connect 9 0 6 0;
-#X coords 0 -1 1 1 50 50 1 20 20;
+#X coords 0 -1 1 1 50 50 1 50 50;
