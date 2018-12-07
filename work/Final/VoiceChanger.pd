@@ -20,7 +20,7 @@
 #X obj 700 510 cnv 15 1 1 empty empty MASTER_VOLUME 20 12 0 14 -233017
 -66577 0;
 #X obj 744 540 knob 50 50 0 1 0 0 empty empty empty 0 -8 0 8 -262144
--1 -1 4900 1;
+-1 -1 4200 1;
 #X floatatom 743 613 5 0 0 0 - - -;
 #X obj 819 735 hip~ 3;
 #X obj 742 732 line~;
@@ -31,12 +31,14 @@
 #X msg 742 676 0;
 #X obj 742 653 moses 0.011;
 #X text 776 789 comment;
-#X obj 942 773 wsprobe~;
+#X text 327 652 Used to control volume of output of [VoiceChanger]
+=>;
+#X text 874 873 PROCESSED SIGNAL;
+#X text 1249 86 <= Triggered by Presets;
 #X connect 0 0 1 0;
 #X connect 1 0 6 0;
 #X connect 2 0 8 0;
 #X connect 2 0 20 0;
-#X connect 2 0 29 0;
 #X connect 3 0 1 1;
 #X connect 3 0 5 1;
 #X connect 3 0 2 1;

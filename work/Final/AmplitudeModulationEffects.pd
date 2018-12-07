@@ -15,6 +15,11 @@
 #X msg 489 237 1;
 #X obj 440 213 t b b;
 #X floatatom 489 268 5 0 0 0 - - -;
+#X text 155 63 This is a combination of all the amplitude modulating
+effects.;
+#X text 156 102 SIGNAL;
+#X text 386 100 RESET;
+#X text 349 513 PROCESSED SIGNAL;
 #X connect 0 0 5 0;
 #X connect 0 0 7 0;
 #X connect 2 0 5 3;

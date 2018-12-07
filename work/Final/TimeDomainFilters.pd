@@ -7,7 +7,7 @@
 #X text 296 105 RESET;
 #X obj 332 76 inlet;
 #X obj 100 75 inlet~;
-#X obj 300 410 outlet~;
+#X obj 299 437 outlet~;
 #X obj 297 127 Knob~;
 #X obj 378 78 loadbang;
 #X msg 377 135 1;
@@ -15,6 +15,10 @@
 #X obj 298 209 Knob~;
 #X floatatom 377 162 5 0 0 0 - - -;
 #X obj 376 108 r telephone;
+#X text 97 30 This is a combination of all the filters.;
+#X text 101 59 SIGNAL;
+#X text 332 60 RESET;
+#X text 295 457 PROCESSED SIGNAL;
 #X connect 0 0 8 1;
 #X connect 1 0 12 1;
 #X connect 2 0 11 1;

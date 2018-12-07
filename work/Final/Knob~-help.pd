@@ -1,0 +1,47 @@
+#N canvas 0 22 923 751 10;
+#X obj 14 538 cnv 15 552 21 empty \$0-pddp.cnv.footer empty 20 12 0
+14 -228856 -66577 0;
+#X obj 10 10 cnv 15 552 40 empty \$0-pddp.cnv.header Knob~ 3 12 0 18
+-204280 -1 0;
+#X obj 10 301 cnv 3 550 3 empty \$0-pddp.cnv.inlets inlets 8 12 0 13
+-228856 -1 0;
+#X obj 10 420 cnv 3 550 3 empty \$0-pddp.cnv.outlets outlets 8 12 0
+13 -228856 -1 0;
+#X obj 88 310 cnv 17 3 100 empty \$0-pddp.cnv.let.0 0 5 9 0 16 -228856
+-162280 0;
+#X obj 196 197 output~;
+#X obj 88 340 cnv 17 3 1 empty \$0-pddp.cnv.let.0 1 5 9 0 16 -228856
+-162280 0;
+#X obj 89 390 cnv 17 3 1 empty \$0-pddp.cnv.let.0 3 5 9 0 16 -228856
+-162280 0;
+#X text 179 430 - The output signal;
+#X obj 223 108 Knob~;
+#X obj 166 71 osc~ 400;
+#X obj 228 69 osc~ 500;
+#X floatatom 286 70 5 0 0 0 - - -;
+#X obj 324 71 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X text 21 33 signal mixer;
+#X text 221 252 Knob~ mixes two provided signals in a given ratio.
+0 on the knob is considered 100% of signal 1 while 1 on the knob is
+the equivalent of 100% of signal2.;
+#X text 108 309 signal;
+#X text 108 339 signal;
+#X text 178 308 - Signal 1;
+#X text 178 338 - Signal 2;
+#X text 179 388 - Resets to default;
+#X obj 89 366 cnv 17 3 1 empty \$0-pddp.cnv.let.0 2 5 9 0 16 -228856
+-162280 0;
+#X text 109 364 number;
+#X text 109 388 bang;
+#X text 180 364 - Ratio to mix with (0 to 1);
+#X text 108 428 float;
+#X obj 88 429 cnv 17 3 100 empty \$0-pddp.cnv.let.0 0 5 9 0 16 -228856
+-162280 0;
+#X text 158 618;
+#X connect 9 0 5 0;
+#X connect 9 0 5 1;
+#X connect 10 0 9 0;
+#X connect 11 0 9 1;
+#X connect 12 0 9 2;
+#X connect 13 0 9 3;

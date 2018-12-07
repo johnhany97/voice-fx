@@ -1,0 +1,51 @@
+#N canvas 263 82 583 651 10;
+#X obj 10 613 cnv 15 552 21 empty \$0-pddp.cnv.footer empty 20 12 0
+14 -228856 -66577 0;
+#X obj 10 10 cnv 15 552 40 empty \$0-pddp.cnv.header VFX-Tremolo 3
+12 0 18 -204280 -1 0;
+#X obj 10 301 cnv 3 550 3 empty \$0-pddp.cnv.inlets inlets 8 12 0 13
+-228856 -1 0;
+#X obj 10 420 cnv 3 550 3 empty \$0-pddp.cnv.outlets outlets 8 12 0
+13 -228856 -1 0;
+#X obj 10 544 cnv 3 550 3 empty \$0-pddp.cnv.argument arguments 8 12
+0 13 -228856 -1 0;
+#X obj 88 310 cnv 17 3 100 empty \$0-pddp.cnv.let.0 0 5 9 0 16 -228856
+-162280 0;
+#X obj 88 429 cnv 17 3 100 empty \$0-pddp.cnv.let.0 0 5 9 0 16 -228856
+-162280 0;
+#X obj 341 64 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 121 253 output~;
+#X obj 88 333 cnv 17 3 1 empty \$0-pddp.cnv.let.0 1 5 9 0 16 -228856
+-162280 0;
+#X text 108 332 float;
+#X text 178 428 - The output signal frequency;
+#X text 88 568 1) float;
+#X obj 168 67 osc~ 400;
+#X floatatom 226 67 5 0 0 0 - - -;
+#X text 108 309 signal;
+#X obj 89 379 cnv 17 3 1 empty \$0-pddp.cnv.let.0 3 5 9 0 16 -228856
+-162280 0;
+#X text 179 377 - Resets to creation arguments or default values.;
+#X text 178 308 - Original signal to be processed.;
+#X text 108 428 signal;
+#X text 108 376 bang;
+#X floatatom 283 67 5 0 0 0 - - -;
+#X obj 88 356 cnv 17 3 1 empty \$0-pddp.cnv.let.0 2 5 9 0 16 -228856
+-162280 0;
+#X text 108 355 float;
+#X text 87 585 2) float;
+#X text 178 355 - Sets LFO depth;
+#X text 178 332 - Sets LFO Speed;
+#X text 158 568 - The default LFO speed;
+#X text 157 585 - The default LFO depth;
+#X text 20 33 tremolo voice effect;
+#X obj 170 95 VFX-Tremolo;
+#X text 221 266 VFX-Tremolo is a voice effect. It produces what is
+known as "Tremolo".;
+#X connect 7 0 30 3;
+#X connect 13 0 30 0;
+#X connect 14 0 30 1;
+#X connect 21 0 30 2;
+#X connect 30 0 8 0;
+#X connect 30 0 8 1;

@@ -1,4 +1,4 @@
-#N canvas 653 214 804 629 10;
+#N canvas 653 214 991 650 10;
 #X obj 316 54 bng 15 250 50 0 empty empty empty -40 7 0 10 -262144
 -1 -1;
 #X obj 86 22 inlet~;
@@ -7,7 +7,7 @@
 #X obj 86 145 VFX-Reverberation;
 #X obj 86 78 VFX-Delay;
 #X obj 86 242 VFX-Flanger;
-#X obj 347 48 loadbang;
+#X obj 349 39 loadbang;
 #X obj 312 19 inlet;
 #X obj 281 78 Knob~;
 #X obj 281 144 Knob~;
@@ -44,6 +44,11 @@
 #X msg 453 291 0.9;
 #X msg 405 292 10;
 #X msg 422 443 0.4;
+#X text 84 2 SIGNAL;
+#X text 313 1 RESET;
+#X text 281 516 PROCESSED SIGNAL;
+#X text 66 -37 This is a combination of all effects that are time delay-based.
+;
 #X connect 0 0 4 3;
 #X connect 0 0 5 3;
 #X connect 0 0 6 4;
