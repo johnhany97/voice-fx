@@ -1,0 +1,25 @@
+#N canvas 0 22 1380 731 10;
+#X obj 103 118 vradio 15 1 0 2 empty empty empty 0 -8 0 10 -262144
+-1 -1 0;
+#X text 122 117 LIVE INPUT;
+#X text 121 132 SOUND FILE;
+#X obj 186 231 LiveInput;
+#X obj 104 159 route 0 1;
+#X msg 204 196 1;
+#X msg 248 193 0;
+#X obj 102 265 outlet~;
+#X obj 104 72 inlet;
+#X obj 103 231 FromFile;
+#X obj 209 82 loadbang;
+#X connect 0 0 4 0;
+#X connect 3 0 7 0;
+#X connect 4 0 5 0;
+#X connect 4 0 9 1;
+#X connect 4 1 6 0;
+#X connect 4 1 9 0;
+#X connect 5 0 3 0;
+#X connect 6 0 3 0;
+#X connect 8 0 0 0;
+#X connect 9 0 7 0;
+#X connect 10 0 0 0;
+#X coords 0 -1 1 1 92 50 1 100 100;
