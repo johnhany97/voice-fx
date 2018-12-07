@@ -1,10 +1,10 @@
 #N canvas 537 142 599 766 10;
-#X obj 107 135 hsl 128 15 10 1000 1 0 empty empty DELAY -2 -8 0 10
--262144 -1 -1 0 1;
+#X obj 107 135 hsl 128 15 1 1000 1 0 empty empty DELAY -2 -8 0 10 -262144
+-1 -1 0 1;
 #X obj 213 302 sig~;
 #X obj 59 375 +~;
 #X obj 107 170 hsl 128 15 0 1 0 0 empty empty FEEDBACK -2 -8 0 10 -262144
--1 -1 0 1;
+-1 -1 12700 1;
 #X obj 329 335 sig~;
 #X obj 123 401 *~;
 #X obj 59 448 outlet~;
