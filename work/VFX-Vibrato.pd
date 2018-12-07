@@ -16,6 +16,7 @@
 #X obj 297 68 inlet;
 #X text 294 51 RESET;
 #X obj 106 241 VFX-FrequencyShifter \$3;
+#X text 237 103 RESET;
 #X connect 0 0 15 0;
 #X connect 2 0 7 0;
 #X connect 3 0 7 1;

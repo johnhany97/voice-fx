@@ -1,10 +1,17 @@
 #N canvas 840 23 840 940 10;
 #X obj 103 118 InputChooser;
-#X obj 103 558 output~;
-#X obj 105 201 TimeDomainFilters;
-#X obj 196 560 wsprobe~;
+#X obj 104 557 output~;
+#X obj 103 175 TimeDomainFilters;
+#X obj 197 559 wsprobe~;
+#X obj 364 175 TimeDelayEffects;
+#X obj 830 104 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 794 103 RESET;
 #X connect 0 0 2 0;
-#X connect 2 0 1 0;
-#X connect 2 0 1 1;
-#X connect 2 0 3 0;
+#X connect 2 0 4 0;
+#X connect 4 0 1 0;
+#X connect 4 0 1 1;
+#X connect 4 0 3 0;
+#X connect 5 0 2 1;
+#X connect 5 0 4 1;
 #X coords 0 -1 1 1 750 500 1 100 100;
