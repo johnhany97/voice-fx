@@ -76,8 +76,10 @@
 #X obj 105 576 Preset c3p0;
 #X obj 287 576 Preset low_pitch;
 #X obj 473 576 Preset high_pitch;
+#X obj 881 625 outlet~;
 #X connect 0 0 1 0;
 #X connect 1 0 6 0;
+#X connect 2 0 65 0;
 #X connect 3 0 1 1;
 #X connect 3 0 5 1;
 #X connect 3 0 2 1;
